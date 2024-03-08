@@ -43,7 +43,7 @@ description_crsp = {
     
     "AGRI_LOAN":" Loans provided to finance agricultural production.",
     "COMM_INDU_LOAN":"Commercial and industrial loans to borrowers in the U.S.",
-    
+}
 
 
 def load_fred(
