@@ -21,6 +21,10 @@ over to the other configuration, for example.
 import config
 from pathlib import Path
 
+DATA_DIR="./data/"
+OUTPUT_DIR="./output"
+WRDS_USERNAME="yiqiao1"
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DATA_DIR = (BASE_DIR / config('DATA_DIR', default=Path('data'), cast=Path)).resolve()
